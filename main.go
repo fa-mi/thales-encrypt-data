@@ -18,6 +18,7 @@ import (
 type Payload struct {
 	PAN string `json:"pan"`
 	Exp string `json:"exp"`
+	CVV string `json:"cvv"`
 }
 
 func main() {
